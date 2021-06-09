@@ -1,0 +1,35 @@
+<body>
+    <div class="container" align="center">
+      <div class="row">
+        <div class="col-md-6 offset-md mt-4">
+        <h2 align="center">LOGIN</h2>
+        <form>
+          <form>
+          <div class="form-group">
+          <label for="loginusername">Username:&nbsp;</label>
+          <input type="text" class="form-control" id="loginusername" placeholder="Enter Username">
+          </div><br>
+           
+          <div class="form-group">
+          <label for="LoginPassword">Password:&nbsp;</label>
+          <input type="password" class="form-control" id="LoginPassword" placeholder="Password">
+          </div><br>
+          
+          <div class="form-group form-check">
+          <a href="#"  [routerLink]="['/reset-pass']" routerLinkActive="active">Forgot Password </a>
+          </div><br>
+          
+          <button type="submit" class="btn btn-primary">Login<i class="fas fa-sign-in-alt"></i></button>
+          </form>
+          <br>
+          <form>
+            <h3>NEW USER?</h3>
+            <div class="form-group form-check">
+            <a [routerLink]="['/set-pass']" routerLinkActive="active"><button type="submit" class="btn btn-primary">Create<i class="fas fa-sign-in-alt"></i></button></a>
+            </div>
+          </form>
+        </form>
+        </div>
+      </div>
+      </div>
+  </body>
