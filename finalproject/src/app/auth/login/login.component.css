@@ -1,0 +1,11 @@
+body{
+    position: relative;
+    background-position: cover;
+    height: 300px;
+}
+.container{
+    position: relative;
+    background-color: lightgrey;
+    height: 200%;
+    color:navy;
+}

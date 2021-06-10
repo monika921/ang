@@ -1,0 +1,9 @@
+.brick{
+    background-color:rgb(252, 235, 235);
+    position: relative;
+    height: 120%;
+  }
+  .form-group{
+    font-size: 25px;
+    color: red;
+}
